@@ -14,6 +14,6 @@ jobs:
           echo "Ashokscode"
           echo "Hello" > file.txt
           ls
-          echo file.txt
+          cat file.txt
       - name: Sleep
-        run: sleep 20
+        run: sleep 5
